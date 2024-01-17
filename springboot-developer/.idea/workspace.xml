@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="966073d2-f6f5-4c7a-b6b4-d30fe69d3734" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/dto/UpdateArticleRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/controller/BlogViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/controller/ExampleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/dto/ArticleListViewResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/dto/ArticleViewResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/example.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/controller/BlogApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/controller/BlogApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/SpringBootDeveloperApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/SpringBootDeveloperApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/domain/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/service/BlogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/me/rlacofls/springbootdeveloper/controller/BlogApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/rlacofls/springbootdeveloper/controller/BlogApiControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +46,7 @@
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -53,35 +58,40 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2anWCz9me00JXs9ZY7ntdO14yUa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "spring.configuration.checksum": "a4933cc881ee29d1dc68800661a0d2bf",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;a4933cc881ee29d1dc68800661a0d2bf&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -91,7 +101,7 @@
       <recent name="me.rlacofls.springbootdeveloper" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BlogApiControllerTest">
+  <component name="RunManager" selected="Spring Boot.SpringBootDeveloperApplication">
     <configuration name="BlogApiControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-developer.test" />
       <extension name="coverage">
@@ -131,7 +141,8 @@
       <workItem from="1704954704995" duration="4706000" />
       <workItem from="1705025318584" duration="7741000" />
       <workItem from="1705283765431" duration="12428000" />
-      <workItem from="1705372049706" duration="6908000" />
+      <workItem from="1705372049706" duration="10287000" />
+      <workItem from="1705454927078" duration="3293000" />
     </task>
     <servers />
   </component>
