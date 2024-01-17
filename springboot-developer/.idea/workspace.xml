@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="966073d2-f6f5-4c7a-b6b4-d30fe69d3734" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/controller/BlogViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/controller/ExampleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/dto/ArticleListViewResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/dto/ArticleViewResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/article.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/SpringBootDeveloperApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/SpringBootDeveloperApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/rlacofls/springbootdeveloper/domain/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/article.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +38,7 @@
         <option value="JUnit5 Test Class" />
         <option value="Class" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -96,6 +88,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/js" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="me.rlacofls.springbootdeveloper.controller" />
       <recent name="me.rlacofls.springbootdeveloper" />
@@ -142,7 +137,7 @@
       <workItem from="1705025318584" duration="7741000" />
       <workItem from="1705283765431" duration="12428000" />
       <workItem from="1705372049706" duration="10287000" />
-      <workItem from="1705454927078" duration="3293000" />
+      <workItem from="1705454927078" duration="4665000" />
     </task>
     <servers />
   </component>
